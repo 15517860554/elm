@@ -5,6 +5,7 @@ import ele1con from '../static/ele1con.jpg'
 import bottom from '../static/bottom.jpg'
 
 import ShangJia from "./shangjia"
+import ddf from "../static/ele3.jpg"
 var Home=React.createClass({
 	render(){
 		return(
@@ -14,6 +15,9 @@ var Home=React.createClass({
 				</div>
 				<div className='con'>
 					<img src={ele1con}/>
+				</div>
+				<div className='ddf_img'>
+					<img src={ddf}/>
 				</div>
 				<div className='bottom'>
 					<img src={bottom}/>
